@@ -7,18 +7,18 @@ const IndexPage = () => {
     //   <Text>Home page</Text>
     // </View>
     <>
-      <ScrollView className=" px-8">
-        <View className=" relative">
-          <View className=" absolute w-[750px] h-[750px] top-[-325px] left-[-110px] rounded-full bg-yellow-300"></View>
+      <ScrollView className=" relative px-8">
+        <View className=" absolute w-[750px] h-[750px] top-[-325px] left-[-110px] rounded-full bg-yellow-300"></View>
+        <View className=" flex-row justify-between py-20">
           <View>
             <Text className=" text-lg font-bold text-gray-800">
               SUGGESTED FOR YOU
             </Text>
-            <Text className=" font-bold text-3xl text-gray-800">
+            <Text className=" font-semibold text-3xl text-gray-800">
               Find the stuff you love.
             </Text>
           </View>
-          <View className=""></View>
+          <View className="w-[45px] h-[45px] bg-black rounded-full "></View>
         </View>
       </ScrollView>
     </>
