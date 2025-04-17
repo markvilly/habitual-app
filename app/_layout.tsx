@@ -23,6 +23,8 @@ export default function RootLayout() {
         />
         <Tabs.Screen
           options={{
+            headerShown: false,
+            popToTopOnBlur: true,
             tabBarIcon: ({ color, size }) => (
               <Feather size={size} color={color} name="heart" />
             ),
@@ -35,7 +37,7 @@ export default function RootLayout() {
               <Feather size={size} color="#3a3a3a" name="search" />
             ),
           }}
-          name="third"
+          name="search"
         />
         <Tabs.Screen
           options={{
@@ -43,10 +45,11 @@ export default function RootLayout() {
               <Feather size={size} color={color} name="tag" />
             ),
           }}
-          name="fourth"
+          name="orders"
         />
         <Tabs.Screen
           options={{
+            tabBarBadge: 3,
             tabBarIcon: ({ color, size }) => (
               <Feather size={size} color={color} name="shopping-bag" />
             ),

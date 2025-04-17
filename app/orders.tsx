@@ -1,12 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-const Third = () => {
+const Orders = () => {
   return (
     <View className=" flex-1 justify-center items-center">
-      <Text>Third</Text>
+      <Text>Orders Page</Text>
     </View>
   );
 };
 
-export default Third;
+export default Orders;

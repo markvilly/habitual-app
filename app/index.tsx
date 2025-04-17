@@ -4,7 +4,7 @@ import React from "react";
 const IndexPage = () => {
   return (
     <View className=" flex-1 justify-center items-center">
-      <Text>IndexPage</Text>
+      <Text>Home page</Text>
     </View>
   );
 };

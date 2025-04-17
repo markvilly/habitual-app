@@ -1,12 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-const Fourth = () => {
+const Search = () => {
   return (
     <View className=" flex-1 justify-center items-center">
-      <Text>Fourth</Text>
+      <Text>search page</Text>
     </View>
   );
 };
 
-export default Fourth;
+export default Search;
