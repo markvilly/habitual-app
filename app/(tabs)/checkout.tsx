@@ -1,12 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-const Orders = () => {
+const Checkout = () => {
   return (
     <View className="flex-1 justify-center items-center">
-      <Text>Orders</Text>
+      <Text>Checkout</Text>
     </View>
   );
 };
 
-export default Orders;
+export default Checkout;
