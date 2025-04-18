@@ -1,4 +1,4 @@
-import "../global.css";
+import "@/app/global.css";
 import React from "react";
 import { StatusBar } from "expo-status-bar";
 import { Stack, Tabs } from "expo-router";
@@ -11,7 +11,7 @@ export default function RootLayout() {
         screenOptions={{
           tabBarShowLabel: false,
           tabBarActiveTintColor: "#3a3a3a",
-          //   headerShown: false,
+          headerShown: false,
           tabBarItemStyle: {
             width: "100%",
             height: "100%",
