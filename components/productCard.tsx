@@ -7,7 +7,7 @@ const ProductCard = () => {
   return (
     <>
       {/* Container */}
-      <View className=" relative  w-[350px] h-[370px] bg-[#f8f7fa] rounded-lg shadow-slate-500 ">
+      <View className=" relative  w-[350px] h-[370px] bg-[#f8f7fa] rounded-xl shadow-slate-500 ">
         <View className=" w-full flex-row justify-center items-center pt-6">
           <Image className=" " source={images.headphones} />
         </View>
