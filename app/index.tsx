@@ -9,8 +9,8 @@ const IndexPage = () => {
     // <View className=" flex-1 justify-center items-center">
     //   <Text>Home page</Text>
     // </View>
-    <>
-      <ScrollView className=" relative ">
+    <React.Fragment>
+      <ScrollView className=" relative bg-white ">
         <View className="px-8">
           <View className=" absolute w-[750px] h-[750px] top-[-325px] left-[-110px] rounded-full bg-[#FFE202]"></View>
           {/* Header Section */}
@@ -27,6 +27,7 @@ const IndexPage = () => {
           </View>
         </View>
         {/* Horizontal Scroll Section */}
+
         <ScrollView
           horizontal
           showsHorizontalScrollIndicator={false}
@@ -34,6 +35,7 @@ const IndexPage = () => {
             gap: 18,
             paddingLeft: 26,
             paddingRight: 32,
+            paddingBottom: 88,
             overflowX: "visible",
           }}
           className=" mt-[2px] "
@@ -43,7 +45,7 @@ const IndexPage = () => {
           <ProductCard />
         </ScrollView>
       </ScrollView>
-    </>
+    </React.Fragment>
   );
 };
 

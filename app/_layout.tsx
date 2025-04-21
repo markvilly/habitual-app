@@ -22,7 +22,15 @@ export default function RootLayout() {
             marginHorizontal: 12,
             marginVertical: 24,
             height: 60,
-            borderWidth: 0,
+            borderTopWidth: 1,
+            borderBottomWidth: 0,
+            borderLeftWidth: 0,
+            borderRightWidth: 0,
+            paddingTop: 13,
+            borderColor: "#F8F7FA",
+            marginTop: 2,
+            elevation: 0,
+            shadowOpacity: 0,
           },
         }}
       >

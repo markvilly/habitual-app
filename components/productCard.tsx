@@ -7,11 +7,20 @@ const ProductCard = () => {
   return (
     <>
       {/* Container */}
-      <View className=" relative  w-[350px] h-[370px] bg-[#f8f7fa] rounded-xl shadow-slate-500 ">
+      <View
+        style={{
+          shadowColor: "#000",
+          shadowOffset: { width: -6, height: 6 },
+          shadowOpacity: 0.06,
+          shadowRadius: 4,
+          elevation: 2,
+        }}
+        className=" relative  w-[350px] h-[370px] bg-[#f8f7fa] rounded-xl  "
+      >
         <View className=" w-full flex-row justify-center items-center pt-6">
           <Image className=" " source={images.headphones} />
         </View>
-        <View className="  p-6 w-[100%] h-[60%] bg-white absolute bottom-[-30px] rounded-b-lg">
+        <View className="  p-6 w-[100%] h-[51%] bg-white absolute bottom-[-6px] rounded-b-xl">
           <Text className=" text-2xl text-gray-700">Bose Headphones</Text>
           <View className=" flex-row justify-between items-center pb-2">
             <Text className=" text-2xl text-gray-700 font-bold">$265.99</Text>
